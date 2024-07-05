@@ -15,7 +15,7 @@
 				<div class="navbar-box">
 					<span class="navbar-logo">
 						<a href="index.html">
-							<img class="h-6 xs:h-8 -mt-2 inline" src="../src/assets/images/logo/logo.png" />
+							<img class="inline h-6 -mt-2 xs:h-8" src="../src/assets/images/logo/logo.png" />
 							<span class="font-bold text-green-bottle">D'Coffee</span><span class="font-bold text-green-army"> Shop</span>
 						</a>
 					</span>
@@ -38,7 +38,7 @@
 				</div>
 
 				<div class="navbar-menu">
-					<ul class="menu-box opacity-0">
+					<ul class="opacity-0 menu-box">
 						<li class="menu-list active">
 							<a href="index.html" class="relative">Home</a>
 						</li>
@@ -74,10 +74,10 @@
 			<!-- Content Area Hero -->
 			<section class="relative" aria-labelledby="hero-heading">
 				<img class="hidden lg:block banner-img z-[-1] h-full w-full object-cover object-center absolute top-0 left-0 opacity-50" src="../src/assets/images/page/banner-img.png" alt="banner-img" />
-				<div class="pt-14 md:pt-20 lg:w-10/12 lg:justify-between mx-auto">
-					<div class="container px-5 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+				<div class="mx-auto pt-14 md:pt-20 lg:w-10/12 lg:justify-between">
+					<div class="container flex flex-col flex-wrap items-center px-5 mx-auto md:flex-row">
 						<!--Left Col-->
-						<div class="flex flex-col w-full md:w-4/6 justify-center items-start text-center text-white md:text-left">
+						<div class="flex flex-col items-start justify-center w-full text-center text-white md:w-4/6 md:text-left">
 							<p class="w-full text-sm sm:text-lg sm:tracking-wide font-semibold lg:[text-shadow:_2px_2px_#283618]">Welcome to D'Coffee Shop. . .</p>
 							<h1 class="my-4 text-3xl xs:text-4xl sm:text-5xl font-bold leading-tight lg:[text-shadow:_5px_5px_#283618]">Start your day with fresh coffee and snacks.</h1>
 							<p class="leading-normal text-sm xs:text-lg sm:text-xl xl:text-2xl mb-8 lg:[text-shadow:_2px_1px_#283618]">Coffee is a popular and beloved beverage enjoyed by people around the world. Need fresh coffee?</p>
@@ -85,7 +85,7 @@
 							<a href="menu.html" class="btn-order">Order Now</a>
 						</div>
 						<!--Right Col-->
-						<div class="w-full md:w-2/6 py-6 text-center">
+						<div class="w-full py-6 text-center md:w-2/6">
 							<img class="hero-img" src="../src/assets/images/page/hero-img.png" alt="hero-img" />
 						</div>
 					</div>
@@ -107,13 +107,13 @@
 			</section>
 
 			<!-- Content Area Category -->
-			<section class="bg-white-bone py-10" aria-labelledby="category-heading">
-				<div class="container lg:w-10/12 mx-auto px-4">
+			<section class="py-10 bg-white-bone" aria-labelledby="category-heading">
+				<div class="container px-4 mx-auto lg:w-10/12">
 					<div class="flex items-baseline justify-between">
-						<h2 class="text-lg md:text-2xl font-semibold mb-3">Shop by Category</h2>
-						<a href="menu.html" class="btn-browse hidden md:block">Browse all categories <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
+						<h2 class="mb-3 text-lg font-semibold md:text-2xl">Shop by Category</h2>
+						<a href="menu.html" class="hidden btn-browse md:block">Browse all categories <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
 					</div>
-					<div class="mt-2 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-12">
+					<div class="grid grid-cols-1 mt-2 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-12">
 						<div class="category-layout sm:aspect-square row-end-[span_2]">
 							<img src="../src/assets/images/page/new-arrivals.jpg" alt="New Arrivals" class="category-img" />
 							<div aria-hidden="true" class="category-gradient"></div>
@@ -152,29 +152,29 @@
 						</div>
 					</div>
 					<div class="mt-4 md:hidden">
-						<a href="menu.html" class="btn-browse block">Browse all categories <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
+						<a href="menu.html" class="block btn-browse">Browse all categories <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</section>
 
 			<!-- Content Area Story -->
 			<section aria-labelledby="story-heading">
-				<div class="relative bg-gray-800 opacity-100 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
+				<div class="relative px-6 py-32 bg-gray-800 opacity-100 sm:px-12 sm:py-40 lg:px-16">
 					<div class="absolute inset-0 overflow-hidden">
-						<img src="../src/assets/images/page/story-image.jpg" alt="Story Image" class="h-full w-full object-cover object-center" />
+						<img src="../src/assets/images/page/story-image.jpg" alt="Story Image" class="object-cover object-center w-full h-full" />
 					</div>
-					<div aria-hidden="true" class="absolute inset-0 bg-slate-800 opacity-50"></div>
-					<div class="relative mx-auto flex max-w-3xl flex-col items-center text-center">
+					<div aria-hidden="true" class="absolute inset-0 opacity-50 bg-slate-800"></div>
+					<div class="relative flex flex-col items-center max-w-3xl mx-auto text-center">
 						<h2 id="story-heading" class="text-3xl font-bold tracking-tight text-white opacity-100 sm:text-4xl">Little Story of D'Coffee <span class="text-coksu">Shop</span></h2>
-						<p class="mt-3 text-sm sm:text-xl text-white opacity-100">At D'Coffee Shop, we believe in more than just serving great coffee. We create a community hub where people come together to relax, recharge, and connect. Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
+						<p class="mt-3 text-sm text-white opacity-100 sm:text-xl">At D'Coffee Shop, we believe in more than just serving great coffee. We create a community hub where people come together to relax, recharge, and connect. Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
 						<a href="about.html" class="btn-story">Read our story</a>
 					</div>
 				</div>
 			</section>
 
 			<!-- Content Area Menu -->
-			<section class="bg-white-bone py-10" aria-labelledby="menu-heading">
-				<div class="container lg:w-10/12 mx-auto px-4">
+			<section class="py-10 bg-white-bone" aria-labelledby="menu-heading">
+				<div class="container px-4 mx-auto lg:w-10/12">
 					<div class="w-full">
 						<h1 class="menu-text">Our <span class="text-chocolate">Menu's</span></h1>
 						<div class="menu-border">
@@ -187,8 +187,8 @@
 					<!-- Content Area Menu Coffee -->
 					<div class="container mb-10">
 						<div class="flex items-baseline justify-between">
-							<h2 class="text-base md:text-2xl font-semibold">Our Coffee <i class="fa-solid fa-mug-hot text-chocolate"></i></h2>
-							<a href="coffee-category.html" class="btn-browse hidden md:block">Browse all coffee <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
+							<h2 class="text-base font-semibold md:text-2xl">Our Coffee <i class="fa-solid fa-mug-hot text-chocolate"></i></h2>
+							<a href="coffee-category.html" class="hidden btn-browse md:block">Browse all coffee <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
 						</div>
 						<div class="menu-layout">
 							<div class="menu-card">
@@ -198,11 +198,11 @@
 									<h2 class="menu-price">Rp. 24.650,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -218,11 +218,11 @@
 									<h2 class="menu-price">Rp. 21.350,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-regular fa-star text-gray-400"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-gray-400 fa-regular fa-star"></i>
 										</div>
 										<span class="text-gray-400">(4.5)</span>
 									</div>
@@ -238,11 +238,11 @@
 									<h2 class="menu-price">Rp. 23.450,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -258,11 +258,11 @@
 									<h2 class="menu-price">Rp. 24.250,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-regular fa-star text-gray-400"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-gray-400 fa-regular fa-star"></i>
 										</div>
 										<span class="text-gray-400">(4.7)</span>
 									</div>
@@ -278,11 +278,11 @@
 									<h2 class="menu-price">Rp. 22.550,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -298,11 +298,11 @@
 									<h2 class="menu-price">Rp. 18.500,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-regular fa-star text-gray-400"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-gray-400 fa-regular fa-star"></i>
 										</div>
 										<span class="text-gray-400">(4.6)</span>
 									</div>
@@ -313,15 +313,15 @@
 							</div>
 						</div>
 						<div class="mt-4 md:hidden">
-							<a href="coffee-category.html" class="btn-browse block">Browse all coffee <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
+							<a href="coffee-category.html" class="block btn-browse">Browse all coffee <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
 						</div>
 					</div>
 
 					<!-- Content Area Menu Snacks -->
 					<div class="container mb-10">
 						<div class="flex items-baseline justify-between">
-							<h2 class="text-base md:text-2xl font-semibold">Our Snacks <i class="fa-solid fa-pizza-slice text-chocolate rotate-90"></i></h2>
-							<a href="snacks-category.html" class="btn-browse hidden md:block">Browse all snacks <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
+							<h2 class="text-base font-semibold md:text-2xl">Our Snacks <i class="rotate-90 fa-solid fa-pizza-slice text-chocolate"></i></h2>
+							<a href="snacks-category.html" class="hidden btn-browse md:block">Browse all snacks <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
 						</div>
 						<div class="menu-layout">
 							<div class="menu-card">
@@ -331,11 +331,11 @@
 									<h2 class="menu-price">Rp. 10.500,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -351,11 +351,11 @@
 									<h2 class="menu-price">Rp. 12.500,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -371,11 +371,11 @@
 									<h2 class="menu-price">Rp. 11.250,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -391,11 +391,11 @@
 									<h2 class="menu-price">Rp. 9.500,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-regular fa-star text-gray-400"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-gray-400 fa-regular fa-star"></i>
 										</div>
 										<span class="text-gray-400">(4.6)</span>
 									</div>
@@ -411,11 +411,11 @@
 									<h2 class="menu-price">Rp. 15.650,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -431,11 +431,11 @@
 									<h2 class="menu-price">Rp. 22.750,-</h2>
 									<div class="menu-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -446,7 +446,7 @@
 							</div>
 						</div>
 						<div class="mt-4 md:hidden">
-							<a href="snacks-category.html" class="btn-browse block">Browse all snacks <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
+							<a href="snacks-category.html" class="block btn-browse">Browse all snacks <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></a>
 						</div>
 					</div>
 				</div>
@@ -454,7 +454,7 @@
 		</main>
 
 		<!-- Back To Top -->
-		<button type="button" class="back-top hidden" id="btnToTop">
+		<button type="button" class="hidden back-top" id="btnToTop">
 			<span class="fa-stack fa-lg">
 				<i class="fa-solid fa-square fa-stack-2x"></i>
 				<i class="fa-solid fa-angles-up fa-stack-1x fa-inverse"></i>
@@ -462,12 +462,12 @@
 		</button>
 
 		<!-- Footer -->
-		<footer class="bg-green-bottle text-white-bone text-center lg:text-left">
-			<div class="lg:w-10/12 mx-auto py-5 md:py-10 xl:py-16 text-center md:text-left">
-				<div class="grid gap-6 lg:gap-8 text-xs xl:text-sm px-5 md:grid-cols-1 md:grid-flow-col lg:grid-cols-6">
+		<footer class="text-center bg-green-bottle text-white-bone lg:text-left">
+			<div class="py-5 mx-auto text-center lg:w-10/12 md:py-10 xl:py-16 md:text-left">
+				<div class="grid gap-6 px-5 text-xs lg:gap-8 xl:text-sm md:grid-cols-1 md:grid-flow-col lg:grid-cols-6">
 					<div class="col-span-2">
-						<span class="mb-4 flex text-base md:text-lg items-center justify-center font-semibold md:justify-start">
-							<img class="h-6 xs:h-8 -ml-1 pr-1 inline" src="../src/assets/images/logo/logo.png" />
+						<span class="flex items-center justify-center mb-4 text-base font-semibold md:text-lg md:justify-start">
+							<img class="inline h-6 pr-1 -ml-1 xs:h-8" src="../src/assets/images/logo/logo.png" />
 							<h6>D'Coffee <span class="text-coksu">Shop</span></h6>
 						</span>
 						<p class="text-xs xl:text-sm">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
@@ -478,7 +478,7 @@
 
 					<!-- Pages section -->
 					<div class="xl:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Pages</h6>
+						<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Pages</h6>
 						<ul>
 							<li class="mb-4 hover:text-chocolate">
 								<a href="index.html">Home</a>
@@ -497,7 +497,7 @@
 
 					<!-- About section -->
 					<div class="xl:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Company</h6>
+						<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Company</h6>
 						<ul>
 							<li class="mb-4 hover:text-chocolate">
 								<a href="about.html">About us</a>
@@ -516,21 +516,21 @@
 
 					<!-- Opening section -->
 					<div class="col-span-2 lg:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Open Hours</h6>
-						<span class="mb-4 flex justify-between mx-10 xs:mx-14 sm:mx-0">
+						<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Open Hours</h6>
+						<span class="flex justify-between mx-10 mb-4 xs:mx-14 sm:mx-0">
 							<p class="mr-2">Monday - Friday</p>
 							<p>09:00 - 21:00</p>
 						</span>
-						<span class="mb-4 flex justify-between mx-10 xs:mx-14 sm:mx-0">
+						<span class="flex justify-between mx-10 mb-4 xs:mx-14 sm:mx-0">
 							<p class="mr-2">Saturday - Sunday</p>
 							<p>09:00 - 22:00</p>
 						</span>
 
 						<!-- Connect section -->
 						<div>
-							<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Connect with us</h6>
-							<ul class="medsos flex text-xs xl:text-base gap-2 mt-4 justify-center sm:justify-normal">
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+							<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Connect with us</h6>
+							<ul class="flex justify-center gap-2 mt-4 text-xs medsos xl:text-base sm:justify-normal">
+								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
@@ -538,7 +538,7 @@
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
@@ -546,7 +546,7 @@
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
@@ -554,7 +554,7 @@
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
@@ -562,7 +562,7 @@
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
@@ -577,7 +577,7 @@
 			</div>
 
 			<!--Copyright section-->
-			<div class="text-xs sm:text-sm mx-5 lg:w-10/12 lg:mx-auto py-6 text-center border-t-2 border-white-bone">
+			<div class="py-6 mx-5 text-xs text-center border-t-2 sm:text-sm lg:w-10/12 lg:mx-auto border-white-bone">
 				<span>Copyright © 2024. All Rights Reserved. D'Coffee Shop — Designed by</span>
 				<a class="font-semibold hover:text-chocolate" href="javascript:;"> De Luthpi</a>
 			</div>
