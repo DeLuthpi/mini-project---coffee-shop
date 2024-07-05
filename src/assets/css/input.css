@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+	@apply bg-white-bone shadow-2xl w-full;
+}
+
+.navbar {
+	@apply lg:w-10/12 mx-auto p-5 lg:px-0 md:flex md:items-center md:justify-between;
+}
+
+.navbar-box {
+	@apply flex justify-between items-center;
+}
+
+.navbar-logo {
+	@apply text-sm xs:text-lg md:text-2xl;
+}
+
+.navbar-btn {
+	@apply flex justify-between items-center;
+}
+
+.btn-box {
+	@apply px-4 hidden md:block text-green-bottle;
+}
+
+.navbar-device {
+	@apply block md:hidden text-green-bottle mx-1.5;
+}
+
+.grid-icon {
+	@apply grid grid-cols-2 gap-3 md:gap-4 mx-1 md:mx-0;
+}
+
+.navbar-menu {
+	@apply flex justify-between items-center md:divide-x-2 md:divide-green-bottle;
+}
+
+.menu-box {
+	@apply w-48 z-50 right-1 md:w-auto absolute md:opacity-100 top-[70px] rounded-b-lg text-sm lg:text-base font-semibold divide-y-2 divide-gray-200 md:static md:z-auto md:divide-y-0 md:flex md:items-center bg-white-bone md:py-0 md:pl-0 transition-all duration-500;
+}
+
+.menu-list {
+	@apply mx-2 my-2 px-4 py-2 md:px-1 lg:px-2 md:my-0 text-green-bottle duration-500 rounded-lg hover:bg-green-bottle hover:text-white-bone md:hover:bg-transparent md:hover:text-green-bottle;
+}
+
+@media (min-width: 768px) {
+	.navbar .menu-box a::before {
+		@apply content-[''] absolute bottom-0 top-full h-1 mt-1 opacity-100 visible w-0 rounded-md bg-chocolate shadow-2xl transition-all ease-out duration-500;
+	}
+
+	.navbar .menu-box a:hover {
+		@apply opacity-100;
+	}
+
+	.navbar .menu-box a:hover::before {
+		@apply w-full;
+	}
+
+	.navbar .menu-box .active a {
+		@apply opacity-100;
+	}
+
+	.navbar .menu-box .active a::before {
+		@apply w-full;
+	}
+}
+
+.active {
+	@apply bg-green-bottle text-white-bone md:bg-transparent md:text-green-bottle;
+}
+
+.icon-cart {
+	@apply relative text-base md:text-lg hover:text-chocolate;
+}
+
+.icon-user {
+	@apply text-base md:text-lg text-center hover:text-chocolate;
+}
+
+.icon-hamburger {
+	@apply text-base md:hidden block;
+}
+
+.icon-count {
+	@apply absolute bottom-auto left-auto right-0 top-1 z-10 inline-block -translate-y-1/2 translate-x-2/4 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 whitespace-nowrap rounded-full bg-red-600 px-1 md:px-1.5 py-0.5 md:py-[0.150rem] text-center align-baseline text-3xs md:text-2xs font-bold leading-none text-white;
+	/* @apply absolute bottom-auto left-auto right-0.5 top-0 z-10 inline-block -translate-y-1/2 translate-x-2/4 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 whitespace-nowrap rounded-full bg-red-600 px-1.5 py-1 text-center align-baseline text-2xs font-bold leading-none text-white; */
+}
+
+.hero-section {
+	@apply py-10 lg:w-10/12 lg:justify-between mx-auto;
+}
+
+.hero-container {
+	@apply container px-5 lg:px-0 mx-auto justify-center items-start text-center text-white md:text-left;
+}
+
+.hero-heading {
+	@apply my-4 text-3xl xs:text-4xl sm:text-5xl font-bold leading-tight;
+}
+
+.hero-paragraph {
+	@apply leading-normal text-sm xs:text-lg sm:text-xl xl:text-2xl mb-8;
+}
+
+.hero-img {
+	@apply aspect-square mx-auto w-8/12 md:w-4/5 lg:aspect-auto lg:w-full z-50 duration-700 hover:origin-bottom hover:-rotate-12;
+}
+
+.btn-order {
+	@apply mx-auto md:my-6 py-2 md:py-4 px-4 md:px-8 md:mx-0 lg:mx-0 bg-coksu text-green-bottle text-xs md:text-base hover:bg-chocolate hover:text-white-bone hover:scale-105 font-bold rounded-s-full rounded-tr-full shadow-2xl duration-500;
+}
+
+.btn-story {
+	@apply mt-8 block w-full rounded-md border border-transparent bg-white-bone opacity-100 px-8 py-3 text-base font-medium text-slate-800 sm:w-auto duration-500 hover:bg-green-bottle hover:text-white hover:scale-105;
+}
+
+.btn-browse {
+	@apply text-sm font-semibold text-green-bottle hover:text-chocolate duration-500 opacity-100;
+}
+
+.category-layout {
+	@apply aspect-[2/1] sm:h-full relative overflow-hidden rounded-lg duration-500 hover:shadow-2xl hover:scale-105;
+}
+
+.category-img {
+	@apply object-cover object-center sm:absolute sm:inset-0 sm:h-full sm:w-full;
+}
+
+.category-gradient {
+	@apply bg-gradient-to-b from-transparent to-black opacity-80 absolute inset-0;
+}
+
+.category-text {
+	@apply flex flex-col-reverse p-3 md:p-6 absolute inset-0 hover:bg-green-bottle hover:opacity-20;
+}
+
+.menu-category {
+	@apply pt-5 flex flex-none justify-between;
+}
+
+.tabs-list {
+	@apply flex list-none flex-row flex-wrap border-b-0 ps-0;
+}
+
+.tabs-link {
+	@apply w-16 md:w-24 lg:w-32 block border-x-0 border-b-2 border-t-0 rounded-t-lg border-green-bottle mx-0.5 py-1.5 text-xs lg:text-sm font-bold leading-tight;
+}
+
+.menu-filter {
+	@apply py-1 text-green-bottle text-sm md:text-base;
+}
+
+.menu-text {
+	@apply text-xl md:text-3xl w-6/12 md:w-4/12 mx-auto font-bold text-center p-1 text-green-bottle;
+}
+
+.menu-border {
+	@apply w-6/12 sm:w-4/12 mx-auto mb-4 flex flex-row;
+}
+
+.menu-dot {
+	@apply h-1 w-1.5 sm:h-2 sm:w-2.5 bg-green-army rounded-full mx-2 outline outline-1 sm:outline-2 outline-offset-2 sm:outline-offset-4 outline-chocolate;
+}
+
+.menu-line {
+	@apply h-1 sm:h-2 w-full bg-green-army rounded-lg;
+}
+
+.menu-layout {
+	@apply my-4 grid grid-cols-3 grid-flow-row gap-5 md:gap-6 xl:gap-7 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6;
+}
+
+.menu-card {
+	@apply aspect-[4/3] w-full bg-white rounded-sm duration-500 hover:scale-105 hover:rounded-lg hover:shadow-2xl outline outline-2 outline-offset-4 outline-green-army;
+}
+
+.menu-img {
+	@apply object-cover object-center rounded-t-lg;
+}
+
+.menu-name {
+	@apply h-7 xs:h-6 sm:h-auto md:h-9 lg:h-8 xl:h-9 font-semibold text-2xs md:text-sm lg:text-xs xl:text-sm text-green-bottle;
+}
+
+.menu-price {
+	@apply font-semibold text-3xs md:text-xs xl:text-xs text-chocolate xs:pt-1;
+}
+
+.menu-rate {
+	@apply flex flex-row justify-between items-center py-2 text-3xs md:text-xs xl:text-xs;
+}
+
+.btn-cart {
+	@apply w-full h-5 md:h-8 bg-green-army hover:bg-green-bottle rounded-md text-center;
+}
+
+.text-btn-cart {
+	@apply text-white font-semibold text-3xs md:text-xs align-super md:align-middle;
+}
+
+.page-menu-layout {
+	@apply my-4 grid grid-cols-3 grid-flow-row gap-5 md:gap-6 xl:gap-7 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6;
+}
+
+.page-menu-card {
+	@apply aspect-[4/3] w-full bg-white rounded-sm duration-500 hover:scale-105 hover:rounded-lg hover:shadow-2xl outline outline-2 outline-offset-4 outline-green-army;
+}
+
+.page-menu-img {
+	@apply object-cover object-center rounded-t-lg;
+}
+
+.page-menu-name {
+	@apply h-7 xs:h-6 sm:h-auto md:h-9 lg:h-8 xl:h-9 font-semibold text-2xs md:text-sm lg:text-xs xl:text-sm text-green-bottle;
+}
+
+.page-menu-price {
+	@apply font-semibold text-3xs md:text-xs xl:text-xs text-chocolate xs:pt-1;
+}
+
+.page-menu-rate {
+	@apply flex flex-row justify-between items-center py-2 text-3xs md:text-xs xl:text-xs;
+}
+
+.page-btn-cart {
+	@apply w-full h-5 md:h-8 bg-green-army hover:bg-green-bottle rounded-md text-center;
+}
+
+.page-text-btn-cart {
+	@apply text-white font-semibold text-3xs md:text-xs align-super md:align-middle;
+}
+
+.paginate-link {
+	@apply relative block border-2 border-green-army rounded px-2 transition duration-300 hover:bg-green-army hover:text-white-bone;
+}
+
+.back-top {
+	@apply z-50 fixed text-2xs lg:text-base bottom-3 md:bottom-6 end-3 md:end-6 transition duration-500 ease-in-out text-chocolate hover:text-amber-900 focus:text-amber-900 rounded-sm active:text-amber-900;
+}
