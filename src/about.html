@@ -9,21 +9,21 @@
 		<link rel="stylesheet" href="../src/assets/css/style.css" />
 	</head>
 
-	<body class="bg-green-army">
+	<body>
 		<header class="header">
 			<nav class="navbar">
-				<div class="navbar-box">
-					<span class="navbar-logo">
+				<div class="navbar-logo">
+					<span class="layout-logo">
 						<a href="index.html">
-							<img class="inline h-6 -mt-2 xs:h-8" src="../src/assets/images/logo/logo.png" />
-							<span class="font-bold text-green-bottle">D'Coffee</span><span class="font-bold text-green-army"> Shop</span>
+							<img class="logo-image" src="../src/assets/images/logo/logo.png" />
+							<span class="logo-name-1">D'Coffee</span><span class="logo-name-2"> Shop</span>
 						</a>
 					</span>
-					<div class="navbar-btn">
-						<div class="navbar-device">
-							<div class="grid-icon">
+					<div class="layout-btn-mobile">
+						<div class="layout-icon-mobile">
+							<div class="icon-menu">
 								<div class="icon-cart">
-									<span class="icon-count"> 2 </span>
+									<span class="count-notification"> 0 </span>
 									<a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
 								</div>
 								<div class="icon-user">
@@ -31,34 +31,34 @@
 								</div>
 							</div>
 						</div>
-						<span class="icon-hamburger">
-							<button id="btn-hamburger" class="w-4 mx-auto"><i class="fa-solid fa-bars" id="btn-icon"></i></button>
+						<span class="layout-btn-hamburger">
+							<button id="btn-hamburger" class="btn-hamburger"><i class="fa-solid fa-bars" id="icon-hamburger"></i></button>
 						</span>
 					</div>
 				</div>
 
 				<div class="navbar-menu">
-					<ul class="opacity-0 menu-box">
+					<ul class="opacity-0 layout-menu">
 						<li class="menu-list">
-							<a href="index.html" class="relative">Home</a>
+							<a href="index.html" class="menu-link">Home</a>
 						</li>
 						<li class="menu-list">
-							<a href="menu.html" class="relative">Menu</a>
+							<a href="menu.html" class="menu-link">Menu</a>
 						</li>
 						<li class="menu-list">
-							<a href="services.html" class="relative">Services</a>
+							<a href="services.html" class="menu-link">Services</a>
 						</li>
 						<li class="menu-list active">
-							<a href="about.html" class="relative">About us</a>
+							<a href="about.html" class="menu-link">About us</a>
 						</li>
 						<li class="menu-list">
-							<a href="contact.html" class="relative">Contact us</a>
+							<a href="contact.html" class="menu-link">Contact us</a>
 						</li>
 					</ul>
-					<div class="btn-box">
-						<div class="grid-icon">
+					<div class="layout-icon">
+						<div class="icon-menu">
 							<div class="icon-cart">
-								<span class="icon-count"> 2 </span>
+								<span class="count-notification"> 0 </span>
 								<a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
 							</div>
 							<div class="icon-user">
@@ -72,14 +72,14 @@
 
 		<main class="main-content">
 			<!-- Content Area Hero -->
-			<section aria-labelledby="hero-heading">
-				<div class="hero-section">
-					<div class="hero-container">
-						<h1 class="hero-heading">About <span class="text-chocolate">us</span></h1>
-						<p class="hero-paragraph">A little background about our coffee shop.</p>
+			<section class="hero-section" aria-labelledby="hero-section">
+				<div class="hero-heading">
+					<div class="hero-text">
+						<h1 class="hero-h">About <span class="hero-s">us</span></h1>
+						<p class="hero-p">A little background about our coffee shop.</p>
 					</div>
 				</div>
-				<div class="relative -mt-12 lg:-mt-24">
+				<div class="hero-banner-svg">
 					<svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 							<g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -96,46 +96,46 @@
 			</section>
 
 			<!-- Content Area About Us -->
-			<section class="relative py-5 bg-white-bone" aria-labelledby="menu-heading">
-				<img class="absolute bottom-0 right-0 object-center w-4/5 section-img lg:w-3/5 xl:w-2/4 lg:h-5/6 opacity-20" src="../src/assets/images/page/about-img.png" alt="about-img" />
-				<div class="container px-4 mx-auto lg:w-10/12 md:px-6">
-					<div class="w-full">
-						<h1 class="menu-text">About <span class="text-chocolate">us</span></h1>
-						<div class="menu-border">
-							<div class="menu-dot"></div>
-							<div class="menu-line"></div>
-							<div class="menu-dot"></div>
+			<section class="about-section" aria-labelledby="about-section">
+				<img class="about-bg-img" src="../src/assets/images/page/about-bg-img.png" alt="about-bg-img" />
+				<div class="container about-layout">
+					<div class="about-section-heading">
+						<h1 class="about-text-h1">About <span class="about-text-h2">us</span></h1>
+						<div class="about-heading-border">
+							<div class="about-heading-dot"></div>
+							<div class="about-heading-line"></div>
+							<div class="about-heading-dot"></div>
 						</div>
 					</div>
 
-					<div class="container mb-10">
-						<div class="bg-white-bone text-green-bottle">
-							<h1 class="text-2xl font-bold">D'Coffee <span class="text-chocolate">Shop</span></h1>
-							<h2 class="text-lg font-semibold">Established: 2024</h2>
+					<div class="container about-section-body">
+						<div class="about-body-layout">
+							<h1 class="about-text-company">D'Coffee <span class="about-text-h2">Shop</span></h1>
+							<h2 class="about-text-established">Established: 2024</h2>
 
 							<br />
-							<h3 class="font-semibold">About Us:</h3>
-							<p class="text-justify">D'Coffee Shop is a cozy and inviting coffee haven located in south Bekasi. Since 2024, we have been dedicated to serving our community with exceptional coffee and a warm atmosphere.</p>
+							<h3 class="about-text-h3">About Us:</h3>
+							<p class="about-text-p">D'Coffee Shop is a cozy and inviting coffee haven located in south Bekasi. Since 2024, we have been dedicated to serving our community with exceptional coffee and a warm atmosphere.</p>
 
 							<br />
-							<h3 class="font-semibold">Our Mission:</h3>
-							<p class="text-justify">At D'Coffee Shop, our mission is to craft the perfect cup of coffee for every customer, every time. We source the finest beans from around the world and roast them locally to ensure freshness and quality in every sip.</p>
+							<h3 class="about-text-h3">Our Mission:</h3>
+							<p class="about-text-p">At D'Coffee Shop, our mission is to craft the perfect cup of coffee for every customer, every time. We source the finest beans from around the world and roast them locally to ensure freshness and quality in every sip.</p>
 
 							<br />
-							<h3 class="font-semibold">Our Menu:</h3>
-							<p class="text-justify">From classic espresso beverages to specialty lattes and refreshing iced coffees, our menu offers something for everyone. Pair your favorite drink with our selection of freshly baked pastries and light bites for a delightful treat.</p>
+							<h3 class="about-text-h3">Our Menu:</h3>
+							<p class="about-text-p">From classic espresso beverages to specialty lattes and refreshing iced coffees, our menu offers something for everyone. Pair your favorite drink with our selection of freshly baked pastries and light bites for a delightful treat.</p>
 
 							<br />
-							<h3 class="font-semibold">Community Engagement:</h3>
-							<p class="text-justify">We believe in giving back to the community that supports us. Through partnerships with local charities and events, we strive to make a positive impact beyond our coffee cups.</p>
+							<h3 class="about-text-h3">Community Engagement:</h3>
+							<p class="about-text-p">We believe in giving back to the community that supports us. Through partnerships with local charities and events, we strive to make a positive impact beyond our coffee cups.</p>
 
 							<br />
-							<h3 class="font-semibold">Location:</h3>
-							<p class="text-justify">You can find us at Pedurenan village, Puri Gading, Jatiasih, South Bekasi West Java - Indonesia 17425 conveniently located near Puri Gaidng ringroad. Whether you're looking for your morning pick-me-up or a place to unwind with friends, D'Coffee Shop welcomes you to enjoy the perfect blend of coffee and community.</p>
+							<h3 class="about-text-h3">Location:</h3>
+							<p class="about-text-p">You can find us at Pedurenan village, Puri Gading, Jatiasih, South Bekasi West Java - Indonesia 17425 conveniently located near Puri Gaidng ringroad. Whether you're looking for your morning pick-me-up or a place to unwind with friends, D'Coffee Shop welcomes you to enjoy the perfect blend of coffee and community.</p>
 
 							<br />
-							<h3 class="font-semibold">Contact Us:</h3>
-							<p class="text-justify">Visit our website at dcoffeeshop.co.id or follow us on social media [@DCoffeeShop] for the latest updates, promotions, and more.</p>
+							<h3 class="about-text-h3">Contact Us:</h3>
+							<p class="about-text-p">Visit our website at dcoffeeshop.co.id or follow us on social media [@DCoffeeShop] for the latest updates, promotions, and more.</p>
 
 							<br />
 							<p>Join us at D'Coffee Shop, where every cup tells a story of passion, quality, and the love for coffee.</p>
@@ -146,7 +146,7 @@
 		</main>
 
 		<!-- Back To Top -->
-		<button type="button" class="hidden back-top" id="btnToTop">
+		<button type="button" class="back-to-top" id="btnToTop">
 			<span class="fa-stack fa-lg">
 				<i class="fa-solid fa-square fa-stack-2x"></i>
 				<i class="fa-solid fa-angles-up fa-stack-1x fa-inverse"></i>
@@ -154,111 +154,111 @@
 		</button>
 
 		<!-- Footer -->
-		<footer class="text-center bg-green-bottle text-white-bone lg:text-left">
-			<div class="py-5 mx-auto text-center lg:w-10/12 md:py-10 xl:py-16 md:text-left">
-				<div class="grid gap-6 px-5 text-xs lg:gap-8 xl:text-sm md:grid-cols-1 md:grid-flow-col lg:grid-cols-6">
-					<div class="col-span-2">
-						<span class="flex items-center justify-center mb-4 text-base font-semibold md:text-lg md:justify-start">
-							<img class="inline h-6 pr-1 -ml-1 xs:h-8" src="../src/assets/images/logo/logo.png" />
-							<h6>D'Coffee <span class="text-coksu">Shop</span></h6>
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="footer-top-layout">
+					<div class="footer-logo">
+						<span class="footer-logo-layout">
+							<img class="footer-logo-img" src="../src/assets/images/logo/logo.png" />
+							<h6>D'Coffee <span class="footer-logo-span">Shop</span></h6>
 						</span>
-						<p class="text-xs xl:text-sm">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
+						<p class="footer-text-p">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
 						<br />
-						<p class="text-xs xl:text-sm"><i class="fa-solid fa-location-dot"> </i> Puri gading, Pedurenan village, Jatiasih, South Bekasi</p>
-						<p class="text-xs xl:text-sm">West Java, Indonesia - 17425</p>
+						<p class="footer-text-p"><i class="fa-solid fa-location-dot"> </i> Puri gading, Pedurenan village, Jatiasih, South Bekasi</p>
+						<p class="footer-text-p">West Java, Indonesia - 17425</p>
 					</div>
 
 					<!-- Pages section -->
-					<div class="xl:pl-10">
-						<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Pages</h6>
+					<div class="footer-page">
+						<h6 class="footer-page-heading">Pages</h6>
 						<ul>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="index.html">Home</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="menu.html">Menu</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="services.html">Services</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="cart.html">Shopping cart</a>
 							</li>
 						</ul>
 					</div>
 
 					<!-- About section -->
-					<div class="xl:pl-10">
-						<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Company</h6>
+					<div class="footer-page">
+						<h6 class="footer-page-heading">Company</h6>
 						<ul>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="about.html">About us</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="contact.html">Contact us</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="terms.html">Terms & Conditions</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="privacy.html">Privacy Policy</a>
 							</li>
 						</ul>
 					</div>
 
 					<!-- Opening section -->
-					<div class="col-span-2 lg:pl-10">
-						<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Open Hours</h6>
-						<span class="flex justify-between mx-10 mb-4 xs:mx-14 sm:mx-0">
-							<p class="mr-2">Monday - Friday</p>
+					<div class="footer-opening">
+						<h6 class="footer-page-heading">Open Hours</h6>
+						<span class="footer-page-span">
+							<p class="footer-page-p">Monday - Friday</p>
 							<p>09:00 - 21:00</p>
 						</span>
-						<span class="flex justify-between mx-10 mb-4 xs:mx-14 sm:mx-0">
-							<p class="mr-2">Saturday - Sunday</p>
+						<span class="footer-page-span">
+							<p class="footer-page-p">Saturday - Sunday</p>
 							<p>09:00 - 22:00</p>
 						</span>
 
 						<!-- Connect section -->
-						<div>
-							<h6 class="flex justify-center mb-4 font-semibold uppercase md:justify-start">Connect with us</h6>
-							<ul class="flex justify-center gap-2 mt-4 text-xs medsos xl:text-base sm:justify-normal">
-								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
+						<div class="social-media">
+							<h6 class="footer-page-heading">Connect with us</h6>
+							<ul class="footer-medsos">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-instagram fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-instagram fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-tiktok fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-tiktok fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-twitter fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-twitter fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="duration-500 text-white-bone hover:text-chocolate hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-youtube fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-youtube fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
@@ -269,9 +269,9 @@
 			</div>
 
 			<!--Copyright section-->
-			<div class="py-6 mx-5 text-xs text-center border-t-2 sm:text-sm lg:w-10/12 lg:mx-auto border-white-bone">
+			<div class="footer-bottom">
 				<span>Copyright © 2024. All Rights Reserved. D'Coffee Shop — Designed by</span>
-				<a class="font-semibold hover:text-chocolate" href="javascript:;"> De Luthpi</a>
+				<a class="footer-bottom-link" href="javascript:;"> De Luthpi</a>
 			</div>
 		</footer>
 

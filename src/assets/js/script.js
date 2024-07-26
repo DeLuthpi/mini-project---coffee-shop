@@ -1,6 +1,6 @@
 let list = document.querySelector("ul");
-const icon = document.getElementById("btn-icon");
 const btn = document.getElementById("btn-hamburger");
+const icon = document.getElementById("icon-hamburger");
 
 btn.addEventListener("click", () => {
 	if (icon.classList.contains("fa-bars")) {
