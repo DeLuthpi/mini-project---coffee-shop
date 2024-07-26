@@ -9,21 +9,21 @@
 		<link rel="stylesheet" href="../src/assets/css/style.css" />
 	</head>
 
-	<body class="bg-green-army">
+	<body>
 		<header class="header">
 			<nav class="navbar">
-				<div class="navbar-box">
-					<span class="navbar-logo">
+				<div class="navbar-logo">
+					<span class="layout-logo">
 						<a href="index.html">
-							<img class="h-6 xs:h-8 -mt-2 inline" src="../src/assets/images/logo/logo.png" />
-							<span class="font-bold text-green-bottle">D'Coffee</span><span class="font-bold text-green-army"> Shop</span>
+							<img class="logo-image" src="../src/assets/images/logo/logo.png" />
+							<span class="logo-name-1">D'Coffee</span><span class="logo-name-2"> Shop</span>
 						</a>
 					</span>
-					<div class="navbar-btn">
-						<div class="navbar-device">
-							<div class="grid-icon">
+					<div class="layout-btn-mobile">
+						<div class="layout-icon-mobile">
+							<div class="icon-menu">
 								<div class="icon-cart">
-									<span class="icon-count"> 2 </span>
+									<span class="count-notification"> 0 </span>
 									<a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
 								</div>
 								<div class="icon-user">
@@ -31,34 +31,34 @@
 								</div>
 							</div>
 						</div>
-						<span class="icon-hamburger">
-							<button id="btn-hamburger" class="w-4 mx-auto"><i class="fa-solid fa-bars" id="btn-icon"></i></button>
+						<span class="layout-btn-hamburger">
+							<button id="btn-hamburger" class="btn-hamburger"><i class="fa-solid fa-bars" id="icon-hamburger"></i></button>
 						</span>
 					</div>
 				</div>
 
 				<div class="navbar-menu">
-					<ul class="menu-box opacity-0">
+					<ul class="opacity-0 layout-menu">
 						<li class="menu-list">
-							<a href="index.html" class="relative">Home</a>
+							<a href="index.html" class="menu-link">Home</a>
 						</li>
 						<li class="menu-list active">
-							<a href="menu.html" class="relative">Menu</a>
+							<a href="menu.html" class="menu-link">Menu</a>
 						</li>
 						<li class="menu-list">
-							<a href="services.html" class="relative">Services</a>
+							<a href="services.html" class="menu-link">Services</a>
 						</li>
 						<li class="menu-list">
-							<a href="about.html" class="relative">About us</a>
+							<a href="about.html" class="menu-link">About us</a>
 						</li>
 						<li class="menu-list">
-							<a href="contact.html" class="relative">Contact us</a>
+							<a href="contact.html" class="menu-link">Contact us</a>
 						</li>
 					</ul>
-					<div class="btn-box">
-						<div class="grid-icon">
+					<div class="layout-icon">
+						<div class="icon-menu">
 							<div class="icon-cart">
-								<span class="icon-count"> 2 </span>
+								<span class="count-notification"> 0 </span>
 								<a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
 							</div>
 							<div class="icon-user">
@@ -72,14 +72,14 @@
 
 		<main class="main-content">
 			<!-- Content Area Hero -->
-			<section aria-labelledby="hero-heading">
-				<div class="hero-section">
-					<div class="hero-container">
-						<h1 class="hero-heading">Menu <span class="text-chocolate">Snack</span></h1>
-						<p class="hero-paragraph">Find coffee and snacks that suit your mood today here.</p>
+			<section class="hero-section" aria-labelledby="hero-section">
+				<div class="hero-heading">
+					<div class="hero-text">
+						<h1 class="hero-h">Menu <span class="hero-s">Snacks</span></h1>
+						<p class="hero-p">Find coffee and snacks that suit your mood today here.</p>
 					</div>
 				</div>
-				<div class="relative -mt-12 lg:-mt-24">
+				<div class="hero-banner-svg">
 					<svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 							<g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -96,51 +96,51 @@
 			</section>
 
 			<!-- Content Area Menu -->
-			<section class="bg-white-bone py-5" aria-labelledby="menu-heading">
-				<div class="container lg:w-10/12 mx-auto px-4 md:px-6">
-					<div class="w-full">
-						<h1 class="menu-text">Our <span class="text-chocolate">Menu's</span></h1>
-						<div class="menu-border">
-							<div class="menu-dot"></div>
-							<div class="menu-line"></div>
-							<div class="menu-dot"></div>
+			<section class="products-section" aria-labelledby="products-section">
+				<div class="container products-section-layout">
+					<div class="products-section-heading">
+						<h1 class="products-text-h1">Our <span class="products-text-h2">Menu's</span></h1>
+						<div class="products-heading-border">
+							<div class="products-heading-dot"></div>
+							<div class="products-heading-line"></div>
+							<div class="products-heading-dot"></div>
 						</div>
 					</div>
 
-					<!-- Content Area Menu Coffee -->
-					<div class="container mb-10">
+					<!-- Content Area Products Coffee -->
+					<div class="container products-section-body">
 						<!--Category navigation-->
-						<div class="menu-category">
-							<div class="tabs-menu w-9/12">
-								<ul class="tabs-list" role="tablist">
-									<li class="text-center">
-										<a href="menu.html" class="tabs-link text-green-bottle hover:border-transparent hover:bg-green-bottle hover:text-white-bone">All</a>
+						<div class="products-category">
+							<div class="products-tabs-menu">
+								<ul class="products-tabs" role="tablist">
+									<li class="products-tabs-list">
+										<a href="menu.html" class="products-tabs-link products-tabs-inactive">All</a>
 									</li>
-									<li class="text-center">
-										<a href="coffee-category.html" class="tabs-link text-green-bottle hover:border-transparent hover:bg-green-bottle hover:text-white-bone">Coffee</a>
+									<li class="products-tabs-list">
+										<a href="coffee-category.html" class="products-tabs-link products-tabs-inactive">Coffee</a>
 									</li>
-									<li class="text-center">
-										<a href="snacks-category.html" class="tabs-link text-white-bone hover:border-transparent hover:bg-green-bottle bg-green-bottle">Snacks</a>
+									<li class="products-tabs-list">
+										<a href="snacks-category.html" class="products-tabs-link products-tabs-active">Snacks</a>
 									</li>
 								</ul>
 							</div>
-							<div class="menu-filter">
+							<div class="products-filter">
 								<a href="javascript:;" class="hover:text-chocolate"><i class="fa-solid fa-filter"></i></a>
 							</div>
 						</div>
-						<div class="page-menu-layout">
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-1.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Mini Croissant</h1>
-									<h2 class="page-menu-price">Rp. 10.500,-</h2>
-									<div class="page-menu-rate">
+						<div class="products-layout">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-1.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Mini Croissant</h1>
+									<h2 class="products-price">Rp. 10.500,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -149,18 +149,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-2.jpeg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Maryam Bread</h1>
-									<h2 class="page-menu-price">Rp. 12.500,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-2.jpeg" />
+								<div class="products-detail">
+									<h1 class="products-name">Maryam Bread</h1>
+									<h2 class="products-price">Rp. 12.500,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -169,18 +169,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-3.jpeg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Coffee Buns</h1>
-									<h2 class="page-menu-price">Rp. 11.250,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-3.jpeg" />
+								<div class="products-detail">
+									<h1 class="products-name">Coffee Buns</h1>
+									<h2 class="products-price">Rp. 11.250,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -189,18 +189,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-4.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Butterred Toast</h1>
-									<h2 class="page-menu-price">Rp. 9.500,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-4.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Butterred Toast</h1>
+									<h2 class="products-price">Rp. 9.500,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-regular fa-star text-gray-400"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-gray-400 fa-regular fa-star"></i>
 										</div>
 										<span class="text-gray-400">(4.6)</span>
 									</div>
@@ -209,18 +209,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-5.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Egg and Cheese Toast</h1>
-									<h2 class="page-menu-price">Rp. 15.650,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-5.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Egg and Cheese Toast</h1>
+									<h2 class="products-price">Rp. 15.650,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -229,18 +229,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-6.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Korean Egg Toast</h1>
-									<h2 class="page-menu-price">Rp. 22.750,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-6.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Korean Egg Toast</h1>
+									<h2 class="products-price">Rp. 22.750,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -249,18 +249,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-7.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Egg Sandwich with mayo</h1>
-									<h2 class="page-menu-price">Rp. 13.540,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-7.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Egg Sandwich with mayo</h1>
+									<h2 class="products-price">Rp. 13.540,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.9)</span>
 									</div>
@@ -269,18 +269,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-8.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Cinnamon Sugar Donuts</h1>
-									<h2 class="page-menu-price">Rp. 15.250,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-8.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Cinnamon Sugar Donuts</h1>
+									<h2 class="products-price">Rp. 15.250,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -289,18 +289,18 @@
 									</div>
 								</div>
 							</div>
-							<div class="page-menu-card">
-								<img class="page-menu-img" src="../src/assets/images/menu/snack-8.jpg" />
-								<div class="px-0.5 lg:px-2 py-2">
-									<h1 class="page-menu-name">Cinnamon Sugar Donuts</h1>
-									<h2 class="page-menu-price">Rp. 15.250,-</h2>
-									<div class="page-menu-rate">
+							<div class="products-card">
+								<img class="products-img" src="../src/assets/images/products/snack-8.jpg" />
+								<div class="products-detail">
+									<h1 class="products-name">Cinnamon Sugar Donuts</h1>
+									<h2 class="products-price">Rp. 15.250,-</h2>
+									<div class="products-rate">
 										<div>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star text-yellow-500"></i>
-											<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star"></i>
+											<i class="text-yellow-500 fa-solid fa-star-half-stroke"></i>
 										</div>
 										<span class="text-gray-400">(4.8)</span>
 									</div>
@@ -313,7 +313,7 @@
 
 						<!-- Pagination -->
 						<div class="paginate">
-							<ul class="flex justify-end text-2xs md:text-xs font-bold">
+							<ul class="flex justify-end font-bold text-2xs md:text-xs">
 								<li class="mx-0.5">
 									<a class="paginate-link py-1.5 text-green-army" href="javascript:;"><i class="fa-solid fa-angles-left"></i></a>
 								</li>
@@ -337,7 +337,7 @@
 		</main>
 
 		<!-- Back To Top -->
-		<button type="button" class="back-top hidden" id="btnToTop">
+		<button type="button" class="back-to-top" id="btnToTop">
 			<span class="fa-stack fa-lg">
 				<i class="fa-solid fa-square fa-stack-2x"></i>
 				<i class="fa-solid fa-angles-up fa-stack-1x fa-inverse"></i>
@@ -345,111 +345,111 @@
 		</button>
 
 		<!-- Footer -->
-		<footer class="bg-green-bottle text-white-bone text-center lg:text-left">
-			<div class="lg:w-10/12 mx-auto py-5 md:py-10 xl:py-16 text-center md:text-left">
-				<div class="grid gap-6 lg:gap-8 text-xs xl:text-sm px-5 md:grid-cols-1 md:grid-flow-col lg:grid-cols-6">
-					<div class="col-span-2">
-						<span class="mb-4 flex text-base md:text-lg items-center justify-center font-semibold md:justify-start">
-							<img class="h-6 xs:h-8 -ml-1 pr-1 inline" src="../src/assets/images/logo/logo.png" />
-							<h6>D'Coffee <span class="text-coksu">Shop</span></h6>
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="footer-top-layout">
+					<div class="footer-logo">
+						<span class="footer-logo-layout">
+							<img class="footer-logo-img" src="../src/assets/images/logo/logo.png" />
+							<h6>D'Coffee <span class="footer-logo-span">Shop</span></h6>
 						</span>
-						<p class="text-xs xl:text-sm">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
+						<p class="footer-text-p">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
 						<br />
-						<p class="text-xs xl:text-sm"><i class="fa-solid fa-location-dot"> </i> Puri gading, Pedurenan village, Jatiasih, South Bekasi</p>
-						<p class="text-xs xl:text-sm">West Java, Indonesia - 17425</p>
+						<p class="footer-text-p"><i class="fa-solid fa-location-dot"> </i> Puri gading, Pedurenan village, Jatiasih, South Bekasi</p>
+						<p class="footer-text-p">West Java, Indonesia - 17425</p>
 					</div>
 
 					<!-- Pages section -->
-					<div class="xl:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Pages</h6>
+					<div class="footer-page">
+						<h6 class="footer-page-heading">Pages</h6>
 						<ul>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="index.html">Home</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="menu.html">Menu</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="services.html">Services</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="cart.html">Shopping cart</a>
 							</li>
 						</ul>
 					</div>
 
 					<!-- About section -->
-					<div class="xl:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Company</h6>
+					<div class="footer-page">
+						<h6 class="footer-page-heading">Company</h6>
 						<ul>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="about.html">About us</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="contact.html">Contact us</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="terms.html">Terms & Conditions</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="privacy.html">Privacy Policy</a>
 							</li>
 						</ul>
 					</div>
 
 					<!-- Opening section -->
-					<div class="col-span-2 lg:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Open Hours</h6>
-						<span class="mb-4 flex justify-between mx-10 xs:mx-14 sm:mx-0">
-							<p class="mr-2">Monday - Friday</p>
+					<div class="footer-opening">
+						<h6 class="footer-page-heading">Open Hours</h6>
+						<span class="footer-page-span">
+							<p class="footer-page-p">Monday - Friday</p>
 							<p>09:00 - 21:00</p>
 						</span>
-						<span class="mb-4 flex justify-between mx-10 xs:mx-14 sm:mx-0">
-							<p class="mr-2">Saturday - Sunday</p>
+						<span class="footer-page-span">
+							<p class="footer-page-p">Saturday - Sunday</p>
 							<p>09:00 - 22:00</p>
 						</span>
 
 						<!-- Connect section -->
-						<div>
-							<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Connect with us</h6>
-							<ul class="medsos flex text-xs xl:text-base gap-2 mt-4 justify-center sm:justify-normal">
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+						<div class="social-media">
+							<h6 class="footer-page-heading">Connect with us</h6>
+							<ul class="footer-medsos">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-instagram fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-instagram fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-tiktok fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-tiktok fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-twitter fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-twitter fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-youtube fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-youtube fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
@@ -460,9 +460,9 @@
 			</div>
 
 			<!--Copyright section-->
-			<div class="text-xs sm:text-sm mx-5 lg:w-10/12 lg:mx-auto py-6 text-center border-t-2 border-white-bone">
+			<div class="footer-bottom">
 				<span>Copyright © 2024. All Rights Reserved. D'Coffee Shop — Designed by</span>
-				<a class="font-semibold hover:text-chocolate" href="javascript:;"> De Luthpi</a>
+				<a class="footer-bottom-link" href="javascript:;"> De Luthpi</a>
 			</div>
 		</footer>
 

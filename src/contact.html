@@ -9,21 +9,21 @@
 		<link rel="stylesheet" href="../src/assets/css/style.css" />
 	</head>
 
-	<body class="bg-green-army">
+	<body>
 		<header class="header">
 			<nav class="navbar">
-				<div class="navbar-box">
-					<span class="navbar-logo">
+				<div class="navbar-logo">
+					<span class="layout-logo">
 						<a href="index.html">
-							<img class="h-6 xs:h-8 -mt-2 inline" src="../src/assets/images/logo/logo.png" />
-							<span class="font-bold text-green-bottle">D'Coffee</span><span class="font-bold text-green-army"> Shop</span>
+							<img class="logo-image" src="../src/assets/images/logo/logo.png" />
+							<span class="logo-name-1">D'Coffee</span><span class="logo-name-2"> Shop</span>
 						</a>
 					</span>
-					<div class="navbar-btn">
-						<div class="navbar-device">
-							<div class="grid-icon">
+					<div class="layout-btn-mobile">
+						<div class="layout-icon-mobile">
+							<div class="icon-menu">
 								<div class="icon-cart">
-									<span class="icon-count"> 2 </span>
+									<span class="count-notification"> 0 </span>
 									<a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
 								</div>
 								<div class="icon-user">
@@ -31,34 +31,34 @@
 								</div>
 							</div>
 						</div>
-						<span class="icon-hamburger">
-							<button id="btn-hamburger" class="w-4 mx-auto"><i class="fa-solid fa-bars" id="btn-icon"></i></button>
+						<span class="layout-btn-hamburger">
+							<button id="btn-hamburger" class="btn-hamburger"><i class="fa-solid fa-bars" id="icon-hamburger"></i></button>
 						</span>
 					</div>
 				</div>
 
 				<div class="navbar-menu">
-					<ul class="menu-box opacity-0">
+					<ul class="opacity-0 layout-menu">
 						<li class="menu-list">
-							<a href="index.html" class="relative">Home</a>
+							<a href="index.html" class="menu-link">Home</a>
 						</li>
 						<li class="menu-list">
-							<a href="menu.html" class="relative">Menu</a>
+							<a href="menu.html" class="menu-link">Menu</a>
 						</li>
 						<li class="menu-list">
-							<a href="services.html" class="relative">Services</a>
+							<a href="services.html" class="menu-link">Services</a>
 						</li>
 						<li class="menu-list">
-							<a href="about.html" class="relative">About us</a>
+							<a href="about.html" class="menu-link">About us</a>
 						</li>
 						<li class="menu-list active">
-							<a href="contact.html" class="relative">Contact us</a>
+							<a href="contact.html" class="menu-link">Contact us</a>
 						</li>
 					</ul>
-					<div class="btn-box">
-						<div class="grid-icon">
+					<div class="layout-icon">
+						<div class="icon-menu">
 							<div class="icon-cart">
-								<span class="icon-count"> 2 </span>
+								<span class="count-notification"> 0 </span>
 								<a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
 							</div>
 							<div class="icon-user">
@@ -72,14 +72,14 @@
 
 		<main class="main-content">
 			<!-- Content Area Hero -->
-			<section aria-labelledby="hero-heading">
-				<div class="hero-section">
-					<div class="hero-container">
-						<h1 class="hero-heading">Contact <span class="text-chocolate">us</span></h1>
-						<p class="hero-paragraph">Come connect with us, send your criticism and suggestions so we can make our shop even better.</p>
+			<section class="hero-section" aria-labelledby="hero-section">
+				<div class="hero-heading">
+					<div class="hero-text">
+						<h1 class="hero-h">Contact <span class="hero-s">us</span></h1>
+						<p class="hero-p">Come connect with us, send your criticism and suggestions so we can make our shop even better.</p>
 					</div>
 				</div>
-				<div class="relative -mt-12 lg:-mt-24">
+				<div class="hero-banner-svg">
 					<svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 							<g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -96,74 +96,74 @@
 			</section>
 
 			<!-- Content Area Contact Us -->
-			<section class="bg-white-bone py-5" aria-labelledby="menu-heading">
-				<div class="container lg:w-10/12 mx-auto px-4 md:px-4 lg:px-0">
-					<div class="w-full">
-						<h1 class="menu-text">Contact <span class="text-chocolate">us</span></h1>
-						<div class="menu-border">
-							<div class="menu-dot"></div>
-							<div class="menu-line"></div>
-							<div class="menu-dot"></div>
+			<section class="contact-section" aria-labelledby="contact-section">
+				<div class="container contact-layout">
+					<div class="contact-section-heading">
+						<h1 class="contact-text-h1">Contact <span class="contact-text-h2">us</span></h1>
+						<div class="contact-heading-border">
+							<div class="contact-heading-dot"></div>
+							<div class="contact-heading-line"></div>
+							<div class="contact-heading-dot"></div>
 						</div>
 					</div>
 
-					<div class="container mb-10 lg:mt-10 lg:w-10/12 xl:w-9/12 lg:mx-auto">
-						<div class="container mb-10">
-							<div class="bg-white-bone text-green-bottle text-2xs md:text-sm xl:text-xl">
-								<div class="flex flex-wrap flex-col lg:flex-row gap-2 justify-between">
-									<div class="contact-location flex flex-wrap">
+					<div class="container contact-section-body">
+						<div class="container contact-body-layout">
+							<div class="contact-body-info">
+								<div class="contact-body-info-layout">
+									<div class="contact-icon-box">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-square fa-stack-2x"></i>
-											<i class="fa-solid fa-location-dot fa-stack-1x fa-inverse !text-white-bone xl:text-base"></i>
+											<i class="fa-solid fa-location-dot fa-stack-1x fa-inverse contact-icon-colors"></i>
 										</span>
-										<h3 class="py-1 md:py-2 xl:py-2.5 text-xs md:text-sm xl:text-lg md:font-semibold">Puri Gading ringroad, Jatiasih, South Bekasi</h3>
+										<h3 class="contact-icon-text-h3">Puri Gading ringroad, Jatiasih, South Bekasi</h3>
 									</div>
-									<div class="contact-website flex flex-wrap">
+									<div class="contact-icon-box">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-square fa-stack-2x"></i>
-											<i class="fa-regular fa-envelope fa-stack-1x fa-inverse !text-white-bone xl:text-base"></i>
+											<i class="fa-regular fa-envelope fa-stack-1x fa-inverse contact-icon-colors"></i>
 										</span>
-										<h3 class="py-1 md:py-2 xl:py-2.5 text-xs md:text-sm xl:text-lg md:font-semibold">info@dcoffeeshop.co.id</h3>
+										<h3 class="contact-icon-text-h3">info@dcoffeeshop.co.id</h3>
 									</div>
-									<div class="contact-phone flex flex-wrap">
+									<div class="contact-icon-box">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-square fa-stack-2x"></i>
-											<i class="fa-solid fa-phone fa-stack-1x fa-inverse !text-white-bone xl:text-base"></i>
+											<i class="fa-solid fa-phone fa-stack-1x fa-inverse contact-icon-colors"></i>
 										</span>
-										<h3 class="py-1 md:py-2 xl:py-2.5 text-xs md:text-sm xl:text-lg md:font-semibold">+62 812 3456 789</h3>
+										<h3 class="contact-icon-text-h3">+62 812 3456 789</h3>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="container mb-10">
+						<div class="container contact-body-layout">
 							<form>
-								<div class="space-y-12">
-									<div class="grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2">
+								<div class="contact-body-form">
+									<div class="contact-body-form-grid">
 										<div>
-											<label for="name" class="block text-sm font-medium leading-6 text-green-bottle">Name</label>
-											<div class="mt-2">
-												<input type="text" name="name" id="name" autocomplete="off" class="block w-full rounded-md border-0 py-1.5 px-2 text-green-bottle shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-green-bottle focus:ring-2 focus:ring-inset focus:ring-green-bottle sm:text-sm sm:leading-6" />
+											<label for="name" class="contact-form-label">Name</label>
+											<div class="contact-form-div">
+												<input type="text" name="name" id="name" autocomplete="off" class="contact-form-input" />
 											</div>
 										</div>
 
 										<div>
-											<label for="email" class="block text-sm font-medium leading-6 text-green-bottle">Email</label>
-											<div class="mt-2">
-												<input type="email" name="email" id="email" autocomplete="off" class="block w-full rounded-md border-0 py-1.5 px-2 text-green-bottle shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-green-bottle focus:ring-2 focus:ring-inset focus:ring-green-bottle sm:text-sm sm:leading-6" />
+											<label for="email" class="contact-form-label">Email</label>
+											<div class="contact-form-div">
+												<input type="email" name="email" id="email" autocomplete="off" class="contact-form-input" />
 											</div>
 										</div>
 
 										<div class="col-span-full">
-											<label for="message" class="block text-sm font-medium leading-6 text-green-bottle">Message</label>
-											<div class="mt-2">
-												<textarea id="message" name="message" rows="6" class="block w-full rounded-md border-0 py-1.5 px-2 text-green-bottle shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-green-bottle focus:ring-2 focus:ring-inset focus:ring-green-bottle sm:text-sm sm:leading-6"></textarea>
+											<label for="message" class="contact-form-label">Message</label>
+											<div class="contact-form-div">
+												<textarea id="message" name="message" rows="6" class="contact-form-input"></textarea>
 											</div>
 										</div>
 									</div>
 								</div>
 
-								<div class="mt-6 items-center justify-end">
-									<button type="button" class="rounded-md bg-green-bottle px-3 py-2 text-sm font-semibold text-white-bone shadow-sm duration-500 hover:scale-105 hover:bg-chocolate focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-bottle">Send Message</button>
+								<div class="contact-form-button">
+									<button type="button" class="contact-form-button-send">Send Message</button>
 								</div>
 							</form>
 						</div>
@@ -173,7 +173,7 @@
 		</main>
 
 		<!-- Back To Top -->
-		<button type="button" class="back-top hidden" id="btnToTop">
+		<button type="button" class="back-to-top" id="btnToTop">
 			<span class="fa-stack fa-lg">
 				<i class="fa-solid fa-square fa-stack-2x"></i>
 				<i class="fa-solid fa-angles-up fa-stack-1x fa-inverse"></i>
@@ -181,111 +181,111 @@
 		</button>
 
 		<!-- Footer -->
-		<footer class="bg-green-bottle text-white-bone text-center lg:text-left">
-			<div class="lg:w-10/12 mx-auto py-5 md:py-10 xl:py-16 text-center md:text-left">
-				<div class="grid gap-6 lg:gap-8 text-xs xl:text-sm px-5 md:grid-cols-1 md:grid-flow-col lg:grid-cols-6">
-					<div class="col-span-2">
-						<span class="mb-4 flex text-base md:text-lg items-center justify-center font-semibold md:justify-start">
-							<img class="h-6 xs:h-8 -ml-1 pr-1 inline" src="../src/assets/images/logo/logo.png" />
-							<h6>D'Coffee <span class="text-coksu">Shop</span></h6>
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="footer-top-layout">
+					<div class="footer-logo">
+						<span class="footer-logo-layout">
+							<img class="footer-logo-img" src="../src/assets/images/logo/logo.png" />
+							<h6>D'Coffee <span class="footer-logo-span">Shop</span></h6>
 						</span>
-						<p class="text-xs xl:text-sm">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
+						<p class="footer-text-p">Nestled in the south of Bekasi City, our cozy café offers a warm and inviting atmosphere perfect for both work and leisure.</p>
 						<br />
-						<p class="text-xs xl:text-sm"><i class="fa-solid fa-location-dot"> </i> Puri gading, Pedurenan village, Jatiasih, South Bekasi</p>
-						<p class="text-xs xl:text-sm">West Java, Indonesia - 17425</p>
+						<p class="footer-text-p"><i class="fa-solid fa-location-dot"> </i> Puri gading, Pedurenan village, Jatiasih, South Bekasi</p>
+						<p class="footer-text-p">West Java, Indonesia - 17425</p>
 					</div>
 
 					<!-- Pages section -->
-					<div class="xl:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Pages</h6>
+					<div class="footer-page">
+						<h6 class="footer-page-heading">Pages</h6>
 						<ul>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="index.html">Home</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="menu.html">Menu</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="services.html">Services</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="cart.html">Shopping cart</a>
 							</li>
 						</ul>
 					</div>
 
 					<!-- About section -->
-					<div class="xl:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Company</h6>
+					<div class="footer-page">
+						<h6 class="footer-page-heading">Company</h6>
 						<ul>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="about.html">About us</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="contact.html">Contact us</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="terms.html">Terms & Conditions</a>
 							</li>
-							<li class="mb-4 hover:text-chocolate">
+							<li class="footer-page-link">
 								<a href="privacy.html">Privacy Policy</a>
 							</li>
 						</ul>
 					</div>
 
 					<!-- Opening section -->
-					<div class="col-span-2 lg:pl-10">
-						<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Open Hours</h6>
-						<span class="mb-4 flex justify-between mx-10 xs:mx-14 sm:mx-0">
-							<p class="mr-2">Monday - Friday</p>
+					<div class="footer-opening">
+						<h6 class="footer-page-heading">Open Hours</h6>
+						<span class="footer-page-span">
+							<p class="footer-page-p">Monday - Friday</p>
 							<p>09:00 - 21:00</p>
 						</span>
-						<span class="mb-4 flex justify-between mx-10 xs:mx-14 sm:mx-0">
-							<p class="mr-2">Saturday - Sunday</p>
+						<span class="footer-page-span">
+							<p class="footer-page-p">Saturday - Sunday</p>
 							<p>09:00 - 22:00</p>
 						</span>
 
 						<!-- Connect section -->
-						<div>
-							<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Connect with us</h6>
-							<ul class="medsos flex text-xs xl:text-base gap-2 mt-4 justify-center sm:justify-normal">
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+						<div class="social-media">
+							<h6 class="footer-page-heading">Connect with us</h6>
+							<ul class="footer-medsos">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-instagram fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-instagram fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa-solid fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-tiktok fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-tiktok fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-twitter fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-twitter fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
-								<li class="text-white-bone hover:text-chocolate duration-500 hover:scale-110">
+								<li class="footer-medsos-list">
 									<a href="javascript:;">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa-brands fa-youtube fa-stack-1x fa-inverse !text-green-bottle"></i>
+											<i class="fa-brands fa-youtube fa-stack-1x fa-inverse medsos-color"></i>
 										</span>
 									</a>
 								</li>
@@ -296,9 +296,9 @@
 			</div>
 
 			<!--Copyright section-->
-			<div class="text-xs sm:text-sm mx-5 lg:w-10/12 lg:mx-auto py-6 text-center border-t-2 border-white-bone">
+			<div class="footer-bottom">
 				<span>Copyright © 2024. All Rights Reserved. D'Coffee Shop — Designed by</span>
-				<a class="font-semibold hover:text-chocolate" href="javascript:;"> De Luthpi</a>
+				<a class="footer-bottom-link" href="javascript:;"> De Luthpi</a>
 			</div>
 		</footer>
 
